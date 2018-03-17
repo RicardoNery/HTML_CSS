@@ -4,23 +4,32 @@
 <head>
     <meta charset="utf-8" />
     <title>Curso completo do desenvolvedor</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <form method="POST">
-        <div>
+    <form method="POST" action="#">
+        <div class="form-group">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required>
         </div>
-        <div>
+        <div class="form-group">
             <label for="email">Nome</label>
             <input type="text" name="email" id="email" class="form-control" placeholder="Digite o seu email" required>
         </div>
+        <div class="form-group">
+            <label for="nascimento">Nome</label>
+            <input type="date" name="nascimento" id="nascimento" class="form-control" placeholder="Nascimento" required>
+        </div>
+
         <div>
             <button type="submit" class="btn btn-primary">Cadastrar</button>
         </div>
+
     </form>
+
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
